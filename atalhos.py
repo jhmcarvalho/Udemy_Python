@@ -6,5 +6,6 @@ ALT + SHIFT + F9 -- Abre a lista para escolher o arquivo que vai executar com de
 SHIFT + ESC -- Minimiza a barra de projetos do canto
 CTRL + L -- Limpa o terminal
 CTRL + K -- Commita
+TESTE
 
 """
