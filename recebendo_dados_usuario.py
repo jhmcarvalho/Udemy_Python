@@ -5,7 +5,7 @@ Exemplos:
 -Aspas simples -> 'Jeferson Martins'
 -Aspas dupals -> "Jeferson Martins"
 -Aspas simples triplas -> '''Jeferson Martins'''
-Aspas duplas triplas -> """#Jeferson Martins"""
+-Aspas duplas triplas -> """#Jeferson Martins"""
 """
 """
 print("Qual seu nome? ")
@@ -17,7 +17,7 @@ print(f'Seja bem-vindo(a) {nome.title()}')
 print("Qual sua idade? ")
 idade = input()
 if idade.isnumeric():
-    print(f'{nome.title()} tem {idade} anos e nasceu em {2021 - int(idade)}')
+    print(f'{nome.title()} tem {idade} anos e nasceu em {2022 - int(idade)}')
 else:
     print('Desculpe, o valor digitado não é válido')
 
