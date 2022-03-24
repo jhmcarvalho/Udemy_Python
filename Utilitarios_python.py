@@ -80,3 +80,32 @@ elif idade == 18:
 else:
     print('Maior de idade')
 '''
+
+#AND, OR, NOT, IS
+"""
+Estruturas lógicas: and(e), or(ou), not(não), is(é);
+*AND - Ambos precisam ser true;
+*OR - Ou um ou outro precisam ser true;
+*NOT - O valor do booleano é invertido. Ou seja, se for true vira false, se for false vira true;
+*IS - Como se fosse um igual
+
+-Operadores unários:
+    -not;
+-Operadores binários:
+    -and, or, is;
+"""
+
+"""
+ativo = False
+logado = True
+
+if ativo is False:
+    logado = False
+
+if ativo and logado:
+    print('Bem vindo usuário!')
+elif ativo and not logado:
+    print('Usuário ainda não conectou')
+elif not ativo and not logado:
+    print('Sua conta ainda não foi ativada, não é possível logar')
+"""
