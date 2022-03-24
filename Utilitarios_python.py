@@ -33,4 +33,27 @@ print(nome.replace('J', 'G')) #Onde possui a letra J vai mudar para G;
 
 """
 
+#VARIAVEIS
+"""
+1- Variaveis globais - São reconhecidas em todo o programa, ou seja, seu escopo compreende tudo;
+2- Variaveis locais - São reconhecidas apenas no bloco onde foram declaradas, ou seja, seu espoco está limitado ao bloco onde foi declarada;
 
+*Para declarar variaveis em Python fazemos:
+nome_da_variavel = valor_da_variavel
+
+Python é uma linguagem do tipo dinâmica, ou seja, ao declarar uma variavel, não colocamos o tipo dela. Esse tipo é inferido ao atribuírmos valor á ela.
+Exemplo em C: 
+int numero = 42;
+
+Exemplo em Java:
+int numero = 42;
+
+Exemplo em Python:
+numero = 42; - Variavel global;
+
+numero = 42
+if numero > 10:
+    novo = numero + 10 --Essa variável "novo" não será criada caso o numero seja menor do que 10 nesse caso, então essa variável é local;
+    print(novo)
+
+"""
