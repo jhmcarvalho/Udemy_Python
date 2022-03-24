@@ -57,3 +57,26 @@ if numero > 10:
     print(novo)
 
 """
+
+#IF/ELSE/ELIF
+"""
+Estrutura condicionais
+if, else, elif - Elif é a mesma coisa de 'else if'; --Pra mudar o bloco, a próxima linha precisa ter 4 espaços, ou seja, um tab;
+"""
+'''
+idade = 6
+if idade < 18:
+    print('Menor de idade')
+else:
+    print('Maior de idade')
+'''
+
+'''
+idade = 18
+if idade < 18:
+    print('Menor de idade')
+elif idade == 18:
+    print('Tem 18 anos')
+else:
+    print('Maior de idade')
+'''
