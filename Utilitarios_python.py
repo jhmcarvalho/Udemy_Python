@@ -109,3 +109,35 @@ elif ativo and not logado:
 elif not ativo and not logado:
     print('Sua conta ainda não foi ativada, não é possível logar')
 """
+
+#LOOP FOR
+"""
+Loop -> Estrutura de repetição.
+For - > É uma das estruturas de repetição.
+Quando usar -> Utilizamos loops para iterar sobre sequencias ou valores iteráveis
+Como usar -> for item in iteravel:
+Exemplos de iteráveis -> String, lista, Range.
+"""
+nome = 'Jeferson Carvalho'
+lista = [1, 3, 5, 7, 9]
+numeros = range(1, 10) #Temos que transformar em uma lista.
+
+#Exemplo de uso 1 (iterando sobre uma string):
+for letra in nome:
+    print(letra)
+
+#Exemplo de uso 2 (iterando sobre uma lista):
+for numero in lista:
+    print(numero)
+
+"""
+range(valor_inicial, valor_final)
+OBS: O valor final não é incluso.
+"""
+#Exemplo de uso 3 (iterando sobre um range):
+for numero in range(1, 10):
+    print(numero)
+
+"""
+
+"""
